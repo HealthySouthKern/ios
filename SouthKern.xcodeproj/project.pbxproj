@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC62CC651F7F4C2C001B8C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62CC641F7F4C2C001B8C54 /* AppDelegate.swift */; };
+		CC62CC671F7F4C2C001B8C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62CC661F7F4C2C001B8C54 /* ViewController.swift */; };
+		CC62CC6A1F7F4C2C001B8C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC62CC681F7F4C2C001B8C54 /* Main.storyboard */; };
+		CC62CC6D1F7F4C2C001B8C54 /* SouthKern.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC62CC6B1F7F4C2C001B8C54 /* SouthKern.xcdatamodeld */; };
+		CC62CC6F1F7F4C2C001B8C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC62CC6E1F7F4C2C001B8C54 /* Assets.xcassets */; };
+		CC62CC721F7F4C2C001B8C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC62CC701F7F4C2C001B8C54 /* LaunchScreen.storyboard */; };
+		CC62CC7D1F7F4C2D001B8C54 /* SouthKernTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62CC7C1F7F4C2D001B8C54 /* SouthKernTests.swift */; };
+		CC62CC881F7F4C2D001B8C54 /* SouthKernUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62CC871F7F4C2D001B8C54 /* SouthKernUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC62CC791F7F4C2D001B8C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC62CC591F7F4C2C001B8C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC62CC601F7F4C2C001B8C54;
+			remoteInfo = SouthKern;
+		};
+		CC62CC841F7F4C2D001B8C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC62CC591F7F4C2C001B8C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC62CC601F7F4C2C001B8C54;
+			remoteInfo = SouthKern;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC62CC611F7F4C2C001B8C54 /* SouthKern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SouthKern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC62CC641F7F4C2C001B8C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC62CC661F7F4C2C001B8C54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC62CC691F7F4C2C001B8C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC62CC6C1F7F4C2C001B8C54 /* SouthKern.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SouthKern.xcdatamodel; sourceTree = "<group>"; };
+		CC62CC6E1F7F4C2C001B8C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC62CC711F7F4C2C001B8C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC62CC731F7F4C2C001B8C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC62CC781F7F4C2D001B8C54 /* SouthKernTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SouthKernTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC62CC7C1F7F4C2D001B8C54 /* SouthKernTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthKernTests.swift; sourceTree = "<group>"; };
+		CC62CC7E1F7F4C2D001B8C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC62CC831F7F4C2D001B8C54 /* SouthKernUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SouthKernUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC62CC871F7F4C2D001B8C54 /* SouthKernUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthKernUITests.swift; sourceTree = "<group>"; };
+		CC62CC891F7F4C2D001B8C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC62CC5E1F7F4C2C001B8C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC62CC751F7F4C2D001B8C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC62CC801F7F4C2D001B8C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC62CC581F7F4C2C001B8C54 = {
+			isa = PBXGroup;
+			children = (
+				CC62CC631F7F4C2C001B8C54 /* SouthKern */,
+				CC62CC7B1F7F4C2D001B8C54 /* SouthKernTests */,
+				CC62CC861F7F4C2D001B8C54 /* SouthKernUITests */,
+				CC62CC621F7F4C2C001B8C54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC62CC621F7F4C2C001B8C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC62CC611F7F4C2C001B8C54 /* SouthKern.app */,
+				CC62CC781F7F4C2D001B8C54 /* SouthKernTests.xctest */,
+				CC62CC831F7F4C2D001B8C54 /* SouthKernUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC62CC631F7F4C2C001B8C54 /* SouthKern */ = {
+			isa = PBXGroup;
+			children = (
+				CC62CC641F7F4C2C001B8C54 /* AppDelegate.swift */,
+				CC62CC661F7F4C2C001B8C54 /* ViewController.swift */,
+				CC62CC681F7F4C2C001B8C54 /* Main.storyboard */,
+				CC62CC6E1F7F4C2C001B8C54 /* Assets.xcassets */,
+				CC62CC701F7F4C2C001B8C54 /* LaunchScreen.storyboard */,
+				CC62CC731F7F4C2C001B8C54 /* Info.plist */,
+				CC62CC6B1F7F4C2C001B8C54 /* SouthKern.xcdatamodeld */,
+			);
+			path = SouthKern;
+			sourceTree = "<group>";
+		};
+		CC62CC7B1F7F4C2D001B8C54 /* SouthKernTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC62CC7C1F7F4C2D001B8C54 /* SouthKernTests.swift */,
+				CC62CC7E1F7F4C2D001B8C54 /* Info.plist */,
+			);
+			path = SouthKernTests;
+			sourceTree = "<group>";
+		};
+		CC62CC861F7F4C2D001B8C54 /* SouthKernUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC62CC871F7F4C2D001B8C54 /* SouthKernUITests.swift */,
+				CC62CC891F7F4C2D001B8C54 /* Info.plist */,
+			);
+			path = SouthKernUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC62CC601F7F4C2C001B8C54 /* SouthKern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC62CC8C1F7F4C2D001B8C54 /* Build configuration list for PBXNativeTarget "SouthKern" */;
+			buildPhases = (
+				CC62CC5D1F7F4C2C001B8C54 /* Sources */,
+				CC62CC5E1F7F4C2C001B8C54 /* Frameworks */,
+				CC62CC5F1F7F4C2C001B8C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SouthKern;
+			productName = SouthKern;
+			productReference = CC62CC611F7F4C2C001B8C54 /* SouthKern.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC62CC771F7F4C2D001B8C54 /* SouthKernTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC62CC8F1F7F4C2D001B8C54 /* Build configuration list for PBXNativeTarget "SouthKernTests" */;
+			buildPhases = (
+				CC62CC741F7F4C2D001B8C54 /* Sources */,
+				CC62CC751F7F4C2D001B8C54 /* Frameworks */,
+				CC62CC761F7F4C2D001B8C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC62CC7A1F7F4C2D001B8C54 /* PBXTargetDependency */,
+			);
+			name = SouthKernTests;
+			productName = SouthKernTests;
+			productReference = CC62CC781F7F4C2D001B8C54 /* SouthKernTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC62CC821F7F4C2D001B8C54 /* SouthKernUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC62CC921F7F4C2D001B8C54 /* Build configuration list for PBXNativeTarget "SouthKernUITests" */;
+			buildPhases = (
+				CC62CC7F1F7F4C2D001B8C54 /* Sources */,
+				CC62CC801F7F4C2D001B8C54 /* Frameworks */,
+				CC62CC811F7F4C2D001B8C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC62CC851F7F4C2D001B8C54 /* PBXTargetDependency */,
+			);
+			name = SouthKernUITests;
+			productName = SouthKernUITests;
+			productReference = CC62CC831F7F4C2D001B8C54 /* SouthKernUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC62CC591F7F4C2C001B8C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Eddie Rangel";
+				TargetAttributes = {
+					CC62CC601F7F4C2C001B8C54 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					CC62CC771F7F4C2D001B8C54 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC62CC601F7F4C2C001B8C54;
+					};
+					CC62CC821F7F4C2D001B8C54 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC62CC601F7F4C2C001B8C54;
+					};
+				};
+			};
+			buildConfigurationList = CC62CC5C1F7F4C2C001B8C54 /* Build configuration list for PBXProject "SouthKern" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC62CC581F7F4C2C001B8C54;
+			productRefGroup = CC62CC621F7F4C2C001B8C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC62CC601F7F4C2C001B8C54 /* SouthKern */,
+				CC62CC771F7F4C2D001B8C54 /* SouthKernTests */,
+				CC62CC821F7F4C2D001B8C54 /* SouthKernUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC62CC5F1F7F4C2C001B8C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC62CC721F7F4C2C001B8C54 /* LaunchScreen.storyboard in Resources */,
+				CC62CC6F1F7F4C2C001B8C54 /* Assets.xcassets in Resources */,
+				CC62CC6A1F7F4C2C001B8C54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC62CC761F7F4C2D001B8C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC62CC811F7F4C2D001B8C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC62CC5D1F7F4C2C001B8C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC62CC6D1F7F4C2C001B8C54 /* SouthKern.xcdatamodeld in Sources */,
+				CC62CC671F7F4C2C001B8C54 /* ViewController.swift in Sources */,
+				CC62CC651F7F4C2C001B8C54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC62CC741F7F4C2D001B8C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC62CC7D1F7F4C2D001B8C54 /* SouthKernTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC62CC7F1F7F4C2D001B8C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC62CC881F7F4C2D001B8C54 /* SouthKernUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC62CC7A1F7F4C2D001B8C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC62CC601F7F4C2C001B8C54 /* SouthKern */;
+			targetProxy = CC62CC791F7F4C2D001B8C54 /* PBXContainerItemProxy */;
+		};
+		CC62CC851F7F4C2D001B8C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC62CC601F7F4C2C001B8C54 /* SouthKern */;
+			targetProxy = CC62CC841F7F4C2D001B8C54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC62CC681F7F4C2C001B8C54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC62CC691F7F4C2C001B8C54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC62CC701F7F4C2C001B8C54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC62CC711F7F4C2C001B8C54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC62CC8A1F7F4C2D001B8C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC62CC8B1F7F4C2D001B8C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC62CC8D1F7F4C2D001B8C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SouthKern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HealthySouthKern.org.SouthKern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC62CC8E1F7F4C2D001B8C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SouthKern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HealthySouthKern.org.SouthKern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC62CC901F7F4C2D001B8C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SouthKernTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HealthySouthKern.org.SouthKernTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SouthKern.app/SouthKern";
+			};
+			name = Debug;
+		};
+		CC62CC911F7F4C2D001B8C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SouthKernTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HealthySouthKern.org.SouthKernTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SouthKern.app/SouthKern";
+			};
+			name = Release;
+		};
+		CC62CC931F7F4C2D001B8C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SouthKernUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HealthySouthKern.org.SouthKernUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SouthKern;
+			};
+			name = Debug;
+		};
+		CC62CC941F7F4C2D001B8C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SouthKernUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HealthySouthKern.org.SouthKernUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SouthKern;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC62CC5C1F7F4C2C001B8C54 /* Build configuration list for PBXProject "SouthKern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC62CC8A1F7F4C2D001B8C54 /* Debug */,
+				CC62CC8B1F7F4C2D001B8C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC62CC8C1F7F4C2D001B8C54 /* Build configuration list for PBXNativeTarget "SouthKern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC62CC8D1F7F4C2D001B8C54 /* Debug */,
+				CC62CC8E1F7F4C2D001B8C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC62CC8F1F7F4C2D001B8C54 /* Build configuration list for PBXNativeTarget "SouthKernTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC62CC901F7F4C2D001B8C54 /* Debug */,
+				CC62CC911F7F4C2D001B8C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC62CC921F7F4C2D001B8C54 /* Build configuration list for PBXNativeTarget "SouthKernUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC62CC931F7F4C2D001B8C54 /* Debug */,
+				CC62CC941F7F4C2D001B8C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC62CC6B1F7F4C2C001B8C54 /* SouthKern.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC62CC6C1F7F4C2C001B8C54 /* SouthKern.xcdatamodel */,
+			);
+			currentVersion = CC62CC6C1F7F4C2C001B8C54 /* SouthKern.xcdatamodel */;
+			path = SouthKern.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC62CC591F7F4C2C001B8C54 /* Project object */;
+}
