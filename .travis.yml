@@ -1,0 +1,4 @@
+os: osx
+language: swift
+xcode_project: SouthKern.xcodeproj # path to your xcodeproj folder
+xcode_scheme: SouthKernTests
