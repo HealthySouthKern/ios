@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80DB26711FC50A69008C5AE8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 80DB26701FC50A68008C5AE8 /* Default.png */; };
 		CC62CC651F7F4C2C001B8C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62CC641F7F4C2C001B8C54 /* AppDelegate.swift */; };
 		CC62CC671F7F4C2C001B8C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62CC661F7F4C2C001B8C54 /* ViewController.swift */; };
 		CC62CC6A1F7F4C2C001B8C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC62CC681F7F4C2C001B8C54 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		80DB26701FC50A68008C5AE8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CC62CC611F7F4C2C001B8C54 /* SouthKern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SouthKern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC62CC641F7F4C2C001B8C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC62CC661F7F4C2C001B8C54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		CC62CC581F7F4C2C001B8C54 = {
 			isa = PBXGroup;
 			children = (
+				80DB26701FC50A68008C5AE8 /* Default.png */,
 				CC62CC631F7F4C2C001B8C54 /* SouthKern */,
 				CC62CC7B1F7F4C2D001B8C54 /* SouthKernTests */,
 				CC62CC861F7F4C2D001B8C54 /* SouthKernUITests */,
@@ -238,6 +241,7 @@
 				CC62CC721F7F4C2C001B8C54 /* LaunchScreen.storyboard in Resources */,
 				CC62CC6F1F7F4C2C001B8C54 /* Assets.xcassets in Resources */,
 				CC62CC6A1F7F4C2C001B8C54 /* Main.storyboard in Resources */,
+				80DB26711FC50A69008C5AE8 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,12 +435,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SouthKern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HealthySouthKern.org.SouthKern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -445,12 +450,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SouthKern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HealthySouthKern.org.SouthKern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
